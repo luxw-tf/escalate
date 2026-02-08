@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escalate | Prediction Markets inside Telegram</title>
+    <meta name="description" content="Create and trade prediction markets directly inside Telegram group chats. Powered by Monad.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">▲</span>
+                <span class="logo-text">ESCALATE</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#how-it-works">How it Works</a>
+                <a href="#monad">Monad</a>
+                <a href="#" class="btn btn-secondary">View Docs</a>
+            </nav>
+            <div class="nav-cta">
+                <a href="#" class="btn btn-primary">Launch in Telegram</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="glow-container">
+                <div class="glow-blob purple"></div>
+                <div class="glow-blob blue"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="reveal-text">Escalate your <span class="gradient-text">convictions.</span></h1>
+                    <p class="subtitle">Create and trade prediction markets directly inside Telegram group chats &mdash; powered by Monad.</p>
+                    <div class="hero-btns">
+                        <a href="#" class="btn btn-primary btn-lg">Launch in Telegram</a>
+                        <a href="#" class="btn btn-outline btn-lg">View Docs</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Turn arguments into markets.</h2>
+                </div>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+                        </div>
+                        <h3>Create a Market</h3>
+                        <p>Launch a prediction market instantly with a single command in any Telegram group chat.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12V8H6a2 2 0 0 1-2-2c0-1.1.9-2 2-2h12v4"/><path d="M4 6v12c0 1.1.9 2 2 2h14v-4"/><path d="M18 12a2 2 0 0 0-2 2c0 1.1.9 2 2 2h4v-4h-4z"/></svg>
+                        </div>
+                        <h3>Place a Bet</h3>
+                        <p>Trade YES or NO outcomes directly within the interface. No context switching needed.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+                        </div>
+                        <h3>Settle On-Chain</h3>
+                        <p>Fully transparent settlement on Monad testnet. Instant payouts directly to your wallet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mockup-section">
+            <div class="container">
+                <div class="mockup-container">
+                    <div class="telegram-mock">
+                        <div class="tg-header">
+                            <div class="tg-title-info">
+                                <span class="bg-purple-dot"></span>
+                                <div>
+                                    <span class="group-name">Escalate Bot</span>
+                                    <span class="online-status">online</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tg-message-list">
+                            <div class="tg-message bot">
+                                <div class="market-card">
+                                    <div class="market-header">
+                                        <span class="market-id">Market #12</span>
+                                    </div>
+                                    <p class="market-question">Will MON reach $1 before March 14?</p>
+                                    
+                                    <div class="market-stats">
+                                        <div class="stat-item">
+                                            <span class="stat-label">YES Pool</span>
+                                            <span class="stat-value">12,430 USDC</span>
+                                        </div>
+                                        <div class="stat-item">
+                                            <span class="stat-label">NO Pool</span>
+                                            <span class="stat-value">8,210 USDC</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="market-actions">
+                                        <button class="bet-btn yes">Bet YES</button>
+                                        <button class="bet-btn no">Bet NO</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="monad" class="monad-section">
+            <div class="container">
+                <div class="monad-content">
+                    <div class="monad-tag">POWERED BY MONAD</div>
+                    <h2>Engineered for Scale.</h2>
+                    <p>Escalate leverages the extreme performance of Monad to deliver a seamless, high-frequency trading experience.</p>
+                    
+                    <div class="monad-features">
+                        <div class="monad-feat">
+                            <h4>High Performance EVM</h4>
+                            <p>Parallelized execution for sub-second confirmations.</p>
+                        </div>
+                        <div class="monad-feat">
+                            <h4>Low Latency</h4>
+                            <p>Instant feedback for every trade in your group chat.</p>
+                        </div>
+                        <div class="monad-feat">
+                            <h4>Financial Scalability</h4>
+                            <p>Built to handle millions of markets without breaking a sweat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="final-cta">
+            <div class="container">
+                <div class="cta-box">
+                    <h2>Ready to escalate?</h2>
+                    <p>Bring the market to your community today.</p>
+                    <a href="#" class="btn btn-primary btn-lg">Add to Telegram</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-wrap">
+                <div class="footer-brand">
+                    <span class="logo-text">ESCALATE</span>
+                    <p>&copy; 2026 Escalate Protocol. Built on Monad.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Twitter</a>
+                    <a href="#">Discord</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
