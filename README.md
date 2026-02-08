@@ -2,6 +2,20 @@
 
 A production-grade Telegram bot for decentralized prediction markets on Monad testnet.
 
+Escalate turns group chat debates into on-chain markets.
+
+Instead of arguing:
+
+“MON will hit $1 before March.”
+
+You create a market.
+Liquidity forms.
+Positions are visible.
+Outcome settles on-chain.
+
+The blockchain is the source of truth.
+Telegram is the interface.
+
 ## 🎯 Features
 
 - **Polymarket-style UX** - Clean market listings with visible pools and liquidity
